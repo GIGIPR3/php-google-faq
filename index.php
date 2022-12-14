@@ -79,10 +79,25 @@ $faq = [
             </ul>
         </div>
 
-
     </header>
 
+    <div class="sasso">
+            <?php foreach ($faq as $data) { ?>
+                
+                <div>
 
+                    <h5> <b><?php echo $data['domanda'] ?></b> </h5>
+                    <p class="mt-3"><?php echo $data ['risposta'] ?></p>
+
+                </div>
+            
+            
+            
+            <?php } ?>
+
+
+    </div>
+        
 
 
 

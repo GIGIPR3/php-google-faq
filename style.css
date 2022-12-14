@@ -32,12 +32,26 @@ ul{
 li{
 /*     height: 100%; */
     margin-left: 2%;
-    font-weight: bold;
+/*     font-weight: bold; */
     color:rgb(95, 99, 104);
 }
 
 .attivo{
     color: rgb(51, 103, 214);
     border-bottom: 3px solid rgb(51, 103, 214);
+    font-weight: bold;
 /*     height: 100%; */
+}
+
+.sasso{
+    width: 65vw;
+    margin: auto;
+    margin-top: 2%;
+    font-size: small;
+    line-height: 25px;
+}
+
+
+p{
+    margin-top: 10%;
 }
